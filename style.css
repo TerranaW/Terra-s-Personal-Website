@@ -1,3 +1,4 @@
+/*homepage style*/
 body {
     font-family: sans-serif;
     margin: 0;
@@ -84,4 +85,26 @@ main {
 .profile-image img{
     max-width: 150%;
     height: 60vh
+}
+
+/*about style*/
+.about-content{
+    
+    display: flex;
+    flex: 1; 
+}
+
+.about-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 50%;
+    margin-left: 10%;
+}
+
+.about-content p{
+    text-wrap:wrap;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 15pt;
 }
