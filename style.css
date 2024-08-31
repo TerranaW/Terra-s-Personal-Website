@@ -30,6 +30,10 @@ nav a {
     font-weight: bold;
 }
 
+a:hover{
+    color: #8D493A;
+}
+
 main {
     padding: 20px;
     display: flex;
@@ -84,7 +88,13 @@ main {
     font-weight: bold;
     border-color: #D0B8A8;
     align-items:center;
+    cursor: pointer;
     
+}
+
+.bio button:hover{
+    background-color: #8D493A;
+    color: #D0B8A8;
 }
 
 .profile-image img{
@@ -146,8 +156,78 @@ main {
     
 }
 
+/*Portiofolio Style*/
+.card {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+#card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:30%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 7%;
+  }
 
-/* Footer */
+
+
+#card1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+#card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:30%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 7%;
+}
+#card2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+#card3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:30%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 7%;
+}
+#card3 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+
+/*Footer Style*/
 .footer {
     background-color: #D0B8A8;
     opacity: 0.8;
