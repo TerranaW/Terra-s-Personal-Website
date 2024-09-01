@@ -225,7 +225,45 @@ main {
     opacity: 0.7;
   }
 
+/*Blog Style*/
+.container{
+    width: 100%;
+    height: 80vh;   
+}
+.cont1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 70%;
+    height: 30%;
+    margin-top: 7%; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    
+}
+.cont1 img{
+    width:30%;
+    height: 100%;
+    margin-right: 10px;
+   
+}
 
+#cont1 {
+    margin-right: 5%;
+    margin-left:10px;
+}
+
+#cont1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color : #333;
+    display: flex;
+    justify-content: flex-end;
+    padding : 10px;
+}
+
+#cont1 a:hover{
+    color: #8D493A;
+}
 
 /*Footer Style*/
 .footer {
